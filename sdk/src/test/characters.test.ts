@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, jest } from '@jest/globals'
 
-import { Characters } from "../src/resources/characters.js";
+import { Characters } from "../resources/characters.js";
 import { mockClient } from './utils.js';
-import type { CharacterSearchQuery } from '../src/types/characters.js';
+import type { CharacterSearchQuery } from '../types/characters.js';
 
 describe("Characters Resource", () => {
   let charactersResource: Characters;

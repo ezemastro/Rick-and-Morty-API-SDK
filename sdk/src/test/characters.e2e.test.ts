@@ -1,6 +1,6 @@
 import { describe, it, expect } from '@jest/globals';
-import type { Characters } from '../src/resources/characters.js';
-import { RickAndMortyAPI } from '../src/index.js';
+import type { Characters } from '../resources/characters.js';
+import { RickAndMortyAPI } from '../index.js';
 
 
 describe("Characters Resource E2E", () => {

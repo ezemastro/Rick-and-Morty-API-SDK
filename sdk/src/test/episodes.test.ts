@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, jest } from "@jest/globals";
-import { Episodes } from "../src/resources/episodes.js";
+import { Episodes } from "../resources/episodes.js";
 import { mockClient } from "./utils.js";
 
 describe("Episodes", () => {
