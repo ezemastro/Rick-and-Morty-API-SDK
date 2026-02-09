@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
